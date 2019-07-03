@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>package1</name>
+  <version>0.0.0</version>
+  <description>The msg_global_plan package</description>
+
+  <maintainer email="wxw9@163.com">xiaowei</maintainer>
+
+
+  <license>BSD</license>
+
+  <!-- Basic depends -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+
+  <!-- Depends on msg. -->
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>message_generation</exec_depend>
+
+ <!-- <build_depend>package1</build_depend>-->
+ <!-- <exec_depend>package1</exec_depend>-->
+
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

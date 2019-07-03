@@ -1,0 +1,2 @@
+package1
+-DCATKIN_DEVEL_PREFIX=/home/qxh/mine3/devel -DCMAKE_INSTALL_PREFIX=/home/qxh/mine3/install -G Unix Makefiles
